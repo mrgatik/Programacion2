@@ -22,7 +22,7 @@ public class CalculadoraV2 {
 				resp=1;
 				System.out.print("\n Primer numero:\t");
 				num1=scan.nextFloat();
-				System.out.print("Segundo numero:\t");
+				System.out.print("\n Segundo numero:\t");
 				num2=scan.nextFloat();
 				switch(sel) 
 				{
