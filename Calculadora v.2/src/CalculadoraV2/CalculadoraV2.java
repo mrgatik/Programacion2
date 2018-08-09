@@ -39,7 +39,7 @@ public class CalculadoraV2 {
 					op=r.getOperation();
 					break;
 				case 3:
-					multiplicacion m=new multiplicacion(num1, num2);
+					multiplica m=new multiplica(num1, num2);
 					ttl=m.getRes();
 					sign=m.getSign();
 					op=m.getOperation();
