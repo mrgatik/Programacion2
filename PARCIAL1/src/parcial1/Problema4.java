@@ -19,10 +19,11 @@ public class Problema4 {
     private static Scanner scanner;
     
     public static void main(String[] args) {
-        scanner=new Scanner (System.in);
-        Scanner scan=scanner.useLocale(Locale.US);
+        scanner=new Scanner (System.in); /* En caso de problemas con configuracion regional de la PC utilizar el siguiente codigo:
+	Scanner scan=scanner.useLocale(Locale.US);
         DecimalFormat df=new DecimalFormat("0.00");
         df.setMaximumFractionDigits(2);
+	*/
         double num, Ptivo=0, Ntivo=0, prom=0, ttl=0, mayor=-9999999, menor=9999999;
         int i=0;
         System.out.print("Utilice > -1 < para terminar el programa\n");
