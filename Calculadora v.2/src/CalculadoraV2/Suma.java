@@ -1,12 +1,12 @@
 package calculadorav2;
 
-public class suma extends Operadores {	
+public class Suma extends Operadores {	
 
     private float t;
     private char sig;
     private String oper;
 
-	public suma (float numero1, float numero2) {
+	public Suma (float numero1, float numero2) {
 	super(numero1, numero2);
             }
 	

@@ -11,7 +11,7 @@ public class Resta extends Operadores {
             }
 	
 	public float getRes () {
-            t = num1 - num2;
+            t=num1-num2;
             return t;
 	}
 	public String getOperation() {
